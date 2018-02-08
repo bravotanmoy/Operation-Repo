@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0}
+
+header{
+  width: 100%;
+  float: left;
+  height: 40px;
+  background-color: green;
+}
+
+
+#section-1{
+  width: 100%;
+  float: left;
+  height: 930px;
+  background-color: yellow;
+}
+
+/*For sticky*/
+
+#sticker {
+    padding:20px;
+    margin:20px 0;
+    background:#AAA;
+    width:190px;
+}
+.stick {
+    position:fixed;
+    top:0px;
+}
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}

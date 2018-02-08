@@ -1,0 +1,69 @@
+
+ html,body{
+     width: 100%;
+     height:100%;
+     padding: 0;
+     margin: 0;
+ }
+/*----------*/
+
+ 
+
+.main{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+section{
+    float: left;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    text-align: center;
+    text-transform: uppercase;
+    width:320;
+    height:120px;
+    float: none;
+    margin: auto;
+    position:relative;
+    transform: translateY(-50%);
+    top: 50%;
+    left:0;
+    right:0;
+}
+
+.text-box h4{
+    color: darkorange;
+    font-size: 34px;
+    font-weight:100;
+}
+.text-box h1{
+    color: #28B473;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+}
+
+p.code{
+    margin-top: 35px;
+    font-size: 20px;
+    color: #fff;
+    width: 700;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.wolverine{
+    
+}

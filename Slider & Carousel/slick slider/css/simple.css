@@ -1,0 +1,36 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0;
+    margin: 0
+}
+.slider {
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin: 0 !important;
+    }
+
+.slider > div{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    font-size: 69px;
+    text-align: center
+}
+
+    /*.slick-slide {
+      margin: 0px 20px;
+    }*/
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+ /*   .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }*/

@@ -1,0 +1,45 @@
+/*
+Theme Name: Blank Theme
+Theme URI: www.codebeech.com
+Description: (c) 2014 Divine Project
+Author: Tanmoy Biswas
+Author URI: www.codebeech.com
+Date: 15.04.2015
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: creative, two-columns, custom-header, custom-background, threaded-comments, sticky-post, editable-content
+*/
+*{margin: 0;padding: 0;transition: all .3s ease-in-out 0s;}
+
+
+
+.item{
+	background-color: #33691E;
+	border: solid red 1px;
+	height: 150px;
+}
+
+/* Owl Carousel Defined Class */
+
+.owl-nav{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-webkit-transform: -webkit-translateY(-50%);
+	   -moz-transform: -moz-translateY(-50%);
+	    -ms-transform: -ms-translateY(-50%);
+	     -o-transform: -o-translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+.owl-prev{
+	float: left;
+}
+.owl-next{
+	float: right;
+}
+
+/*.owl-nav .disabled{display: none !important;}*/
+
+
