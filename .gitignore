@@ -6,6 +6,10 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 
+# Other #
+#####################
+Access & Information.txt
+
 # Folders to ignore #
 #####################
 lib/model/om/*      # ignore everything in the directory

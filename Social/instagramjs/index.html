@@ -16,17 +16,16 @@
 
 
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="instafeed.min.js"></script>
-<script src="main.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'user',
         //tagName: 'awesome',
-        clientId: '5fc43181c1454acf90d5e4faeb2230ad',
-        userId: '3550421370',
-        accessToken: '3550421370.5fc4318.973aea6959f14ecb8686d3c64c8f50d0',
+        //Client Secret: 'My Client Secret',
+        clientId: 'My Client Id',
+        userId: 'My Profile User Id',
+        accessToken: 'Sccess Token',
         template: '<ul><li><a target="_blank" href="{{link}}"><img src="{{image}}"/></a></ul>'
     });
     feed.run();
